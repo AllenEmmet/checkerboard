@@ -14,14 +14,14 @@
         {% for i in range (0,(num2)//2) %}
         <tr>
             {% for i in range (0,(num1)//2) %}
-            <td style="background-color: {{color_a}};"></td>
-            <td style="background-color: {{color_b}};"></td>
+            <td class = "square" style="background-color: {{color_a}};"></td>
+            <td class = "square" style="background-color: {{color_b}};"></td>
             {% endfor %}
         </tr>
         <tr>
             {% for i in range (0,(num1)//2) %}
-            <td style="background-color: {{color_b}};"></td>
-            <td style="background-color: {{color_a}};"></td>
+            <td class = "square" style="background-color: {{color_b}};"></td>
+            <td class = "square" style="background-color: {{color_a}};"></td>
             {% endfor %}
         </tr>
         {%endfor%}

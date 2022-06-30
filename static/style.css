@@ -8,7 +8,7 @@ table{
     border-collapse: collapse;
     
 }
-td{
+.square{
     height: 50px;
     width: 50px;
 }
